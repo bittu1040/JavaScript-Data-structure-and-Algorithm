@@ -21,5 +21,6 @@ function binarySearch(arr, target) {
     return -1;
 }
 
-console.log(binarySearch([1, 2, 3, 4, 5], 40))
+console.log(binarySearch([1, 2, 3, 4, 5], 40))  // -1
+console.log(binarySearch([1, 2, 3, 4, 5], 3));  // 2
 
