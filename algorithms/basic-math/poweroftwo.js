@@ -1,7 +1,7 @@
 // input 8, output: true
 // input 7, output: false
 
-function powerOfTwo(n) {
+function isPowerOfTwo(n) {
   if (n <= 0) return false;
   while (n > 1) {
     if (n % 2 !== 0) {
@@ -12,8 +12,8 @@ function powerOfTwo(n) {
   return true;
 }
 
-console.log(powerOfTwo(8));  // true
-console.log(powerOfTwo(7));  // false
+console.log(isPowerOfTwo(8));  // true
+console.log(isPowerOfTwo(7));  // false
 
 console.log(8 / 2);  // 4
 console.log(8 % 2);   // 0
